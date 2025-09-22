@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\DecryptDocument]
+@="문서 복호화"
+"Icon"="C:\\DecryptTools\\DocumentDecryptor.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\DecryptDocument\command]
+@="\"C:\\DecryptTools\\DocumentDecryptor.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\DecryptDocument]
+@="문서 복호화"
+"Icon"="C:\\DecryptTools\\DocumentDecryptor.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\DecryptDocument\command]
+@="\"C:\\DecryptTools\\DocumentDecryptor.exe\" \"%1\""
