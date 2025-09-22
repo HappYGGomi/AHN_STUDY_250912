@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DocumentDecryptor
@@ -107,8 +108,8 @@ namespace DocumentDecryptor
 
             try
             {
-                // 비동기로 복호화 실행
-                bool success = await System.Threading.Tasks.Task.Run(() => 
+                // .NET 9.0의 최신 비동기 패턴 사용
+                bool success = await Task.Run(() => 
                     DocumentDecryptor.DecryptDocument(txtFilePath.Text));
 
                 if (success)

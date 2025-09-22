@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net9.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyTitle>Document Decryptor</AssemblyTitle>
     <AssemblyDescription>문서 복호화 도구</AssemblyDescription>
@@ -11,6 +11,8 @@
     <AssemblyCompany>HaapYGGomi</AssemblyCompany>
     <AssemblyProduct>Document Decryptor</AssemblyProduct>
     <Copyright>Copyright © 2024</Copyright>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
