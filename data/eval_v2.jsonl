@@ -1,0 +1,14 @@
+{"query":"방금 주문 결제를 완료했어요. 언제쯤 배송 받을수 있나요?","intent":"shipping_time","required_spans":["2~3영업일"],"forbidden_spans":["수령일 포함 7일","동일 상품에 한하여 1회 가능"],"optional_spans":[]}
+{"query":"배송은 며칠 걸리나요?","intent":"shipping_time","required_spans":["2~3영업일"],"forbidden_spans":["수령일 포함 7일","동일 상품에 한하여 1회 가능"],"optional_spans":[]}
+{"query":"도착까지 얼마나 걸려요?","intent":"shipping_time","required_spans":["2~3영업일"],"forbidden_spans":["수령일 포함 7일","동일 상품에 한하여 1회 가능"],"optional_spans":[]}
+
+{"query":"오늘 제가 주문한 상품을 받았어요. 반품하고 싶어요. 반품가능한가요?","intent":"return_window","required_spans":["수령일 포함 7일"],"forbidden_spans":["2~3영업일","동일 상품에 한하여 1회 가능"],"optional_spans":["사용 흔적","훼손","구성품 누락"]}
+{"query":"반품은 언제 가능해?","intent":"return_window","required_spans":["수령일 포함 7일"],"forbidden_spans":["2~3영업일","동일 상품에 한하여 1회 가능"],"optional_spans":["사용 흔적","훼손","구성품 누락"]}
+{"query":"반품 기간 알려줘","intent":"return_window","required_spans":["수령일 포함 7일"],"forbidden_spans":["2~3영업일","동일 상품에 한하여 1회 가능"],"optional_spans":["사용 흔적","훼손","구성품 누락"]}
+
+{"query":"교환하고 싶어요","intent":"exchange","required_spans":["동일 상품에 한하여 1회 가능"],"forbidden_spans":["2~3영업일","수령일 포함 7일"],"optional_spans":["재고가 없을 경우 반품으로 전환"]}
+{"query":"교환 조건이 어떻게 되나요?","intent":"exchange","required_spans":["동일 상품에 한하여 1회 가능"],"forbidden_spans":["2~3영업일","수령일 포함 7일"],"optional_spans":["재고가 없을 경우 반품으로 전환"]}
+
+{"query":"카드 결제 취소는 며칠 걸려요?","intent":"payment_cancel","required_spans":["3~5일"],"forbidden_spans":["2~3영업일","수령일 포함 7일","동일 상품에 한하여 1회 가능"],"optional_spans":[]}
+{"query":"보증 기간은 얼마나 되나요?","intent":"warranty","required_spans":["1년"],"forbidden_spans":["2~3영업일","수령일 포함 7일"],"optional_spans":["사용자 과실의 경우 유상 A/S"]}
+{"query":"현금영수증 발급 가능한가요?","intent":"receipt","required_spans":["자진발급"],"forbidden_spans":["2~3영업일","수령일 포함 7일"],"optional_spans":[]}
