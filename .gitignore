@@ -1,0 +1,19 @@
+# Build results
+bin/
+obj/
+publish*/
+*.dll
+*.exe
+*.pdb
+
+# macOS
+.DS_Store
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Temporary files
+*.tmp
+*.temp

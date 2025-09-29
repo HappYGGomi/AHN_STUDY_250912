@@ -4,6 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <PlatformTarget>x86</PlatformTarget>
     <AssemblyTitle>Document Decryptor</AssemblyTitle>
     <AssemblyDescription>문서 복호화 도구</AssemblyDescription>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -17,6 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
 </Project>

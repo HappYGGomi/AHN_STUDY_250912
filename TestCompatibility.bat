@@ -56,3 +56,5 @@ echo 현재 .NET 버전: %MAJOR_VERSION%
 echo 지원되는 .NET 버전: 6.0, 7.0, 8.0, 9.0
 echo.
 pause
+
+
